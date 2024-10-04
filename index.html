@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>E-mail Card</title>
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+      <!-- Card -->
+      <div
+        class="bg-zinc-800 flex items-cen flex-col lg:flex-row lg:items-center p-2 w-1/2 rounded-2xl h-1/2"
+      >
+        <!-- IMG -->
+        <img
+          src="./images/image.jpg"
+          alt="hero-img"
+          class="sm:w-full w-1/2 h-1/3 lg:h-full lg:w-1/2 rounded-xl hover:opacity-80 transition-all cursor-pointer"
+        />
+        <!-- Content -->
+        <div
+          class="w-full h-full flex flex-col lg:ml-10 text-white justify-center rounded-2xl p-2"
+        >
+          <h1 class="mb-10 font-semibold">
+            Get diet and fitness tips in your inbox
+          </h1>
+          <p class="mb-5">
+            Eat better and exercise beter. Sign up for the diet news letter
+          </p>
+          <!-- Button and Email -->
+          <div class="flex flex-col lg:flex-row">
+            <input
+              type="email"
+              placeholder="Enter email address"
+              class="w-full p-4 rounded-xl bg-transparent border border-gray-100"
+            />
+            <button
+              class="w-full sm:mt-2 lg:ml-4 bg-green-400 p-4 rounded-xl font-semibold tracking-wider hover:bg-green-700 transition-all"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
